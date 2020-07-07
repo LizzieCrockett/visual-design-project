@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Lexend+Tera&display=swap');
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#intro {
+    text-align: center;
+    padding-top: 75px;
+}
+
+h1, nav {
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+#mockup1, #mockup2, #mockup3, #mockup4, #image1, #image2, #image3, #image4, #image5, #image6, #gif  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section, footer {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: grey
+}
+
+a:hover {
+    color: black
+}
+
+a:active {
+    color: white;
+    background-color: grey;
+}
+
+footer, .download {
+    font-size: 0.5em;
+}
+
+footer {
+    text-align: center;
+    left: 0;
+	right: 0; 
+    bottom: 0;
+    margin: 10px;
+}
