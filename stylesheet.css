@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Lexend+Tera&display=swap');
 
 
-
 nav {
     display: flex;
     flex-direction: row;
@@ -52,4 +51,8 @@ footer {
 	right: 0; 
     bottom: 0;
     margin: 10px;
+}
+
+#black-background {
+    background-color: black;
 }
