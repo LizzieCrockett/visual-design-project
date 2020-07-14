@@ -40,6 +40,10 @@ a:active {
     background-color: #16161D
 }
 
+ #mockup-intro {
+     text-align: left;
+ }
+
 footer {
     text-align: center;
     left: 0;
