@@ -16,23 +16,18 @@ h1, nav {
     font-family: 'Lexend Tera', sans-serif;
 }
 
-/*#mockup1, #mockup2, #mockup3, #mockup4, #image1, #image2, #image3, #image4, #image5, #image6, #gif  {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}*/
 
 .submenu, section, footer {
     font-family: 'Lexend Deca', sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: grey
+    text-decoration: underline;
+    color: black;
 }
 
 a:hover {
-    color: black
+    color: grey
 }
 
 a:active {
