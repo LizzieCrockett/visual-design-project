@@ -30,23 +30,25 @@
         <h1>Image Gallery</h1>
     </section>
     <div class="submenu">
-        <a href="./images.html#image1">Jump to image 1</a>
-        <a href="./images.html#image2">Jump to image 2</a>
-        <a href="./images.html#image3">Jump to image 3</a>
-        <a href="./images.html#image4">Jump to image 4</a>
-        <a href="./images.html#image5">Jump to image 5</a>
-        <a href="./images.html#image6">Jump to image 6</a>
+        <a href="#image1">Jump to image 1</a>
+        <a href="#image2">Jump to image 2</a>
+        <a href="#image3">Jump to image 3</a>
+        <a href="#image4">Jump to image 4</a>
+        <a href="#image5">Jump to image 5</a>
+        <a href="#image6">Jump to image 6</a>
     </div>
     <div class="gallery">
         <section id="image1">
-            <h1>Image 1</h1>
-            <img id="lely-original" src="images/lely portrait/Aphra_Behn_by_Peter_Lely_ca._1670.jpg" />
-            <figcaption><a href="https://commons.wikimedia.org/wiki/File:Aphra_Behn_by_Peter_Lely_ca._1670.jpg"
-                    target="_blank">Original
-                    image</a>, jpg, 1608x1920</figcaption>
-            <img id="lely-edited" src="images/lely portrait/AB Lely portrait edited.jpg" />
-            <figcaption>Edited image, jpg, 3262x2732</figcaption>
-            <a href="images/lely portrait/AB Lely portrait edited.jpg" target="_blank">Open full-size (new tab)</a>
+            <div class="image-box">
+                <h1>Image 1</h1>
+                <img id="lely-original" src="images/lely portrait/Aphra_Behn_by_Peter_Lely_ca._1670.jpg" />
+                <figcaption><a href="https://commons.wikimedia.org/wiki/File:Aphra_Behn_by_Peter_Lely_ca._1670.jpg"
+                        target="_blank">Original
+                        image</a>, jpg, 1608x1920</figcaption>
+                <img id="lely-edited" src="images/lely portrait/AB Lely portrait edited.jpg" />
+                <figcaption>Edited image, jpg, 3262x2732</figcaption>
+                <a href="images/lely portrait/AB Lely portrait edited.jpg" target="_blank">Open full-size (new tab)</a>
+            </div>
             <p>This is a portrait of Aphra Behn by Sir Peter Lely. The original is 1608x1920, already a large file. I
                 edited it in Photoshop. Because I wanted it for the background image of my site, I opted to resize it
                 even larger, to 3262x2732, so that the face would be in the correct proportion on the page.
@@ -61,11 +63,13 @@
             </p>
         </section>
         <section id="image2">
-            <h1>Image 2</h1>
-            <img id="grave-original" src="images/grave photo/grave_1.jpg" />
-            <figcaption>Original image by Will Birch, jpg, 4032x3024</figcaption>
-            <img id="grave-edited" src="images/grave photo/AB grave edited.jpg" />
-            <figcaption>Edited image, jpg, 576x324</figcaption>
+            <div class="image-box">
+                <h1>Image 2</h1>
+                <img id="grave-original" src="images/grave photo/grave_1.jpg" />
+                <figcaption>Original image by Will Birch, jpg, 4032x3024</figcaption>
+                <img id="grave-edited" src="images/grave photo/AB grave edited.jpg" />
+                <figcaption>Edited image, jpg, 576x324</figcaption>
+            </div>
             <p>This is a photograph of Aphra Behn’s grave in Westminster Abbey. The original image is very large at
                 4032x3024. I edited it in Photoshop. Its intended use is as a 16:9 image (576x324) in a modular content
                 box on the website. The image contains a lot of detail I didn’t need, and I wanted to focus on the
@@ -86,14 +90,17 @@
                 high quality.</p>
         </section>
         <section id="image3">
-            <h1>Image 3</h1>
-            <img id="civilwar-original"
-                src="images/civil war propaganda/Boy_and_roundhead-propaganda_pamphlet_1643.png" />
-            <figcaption><a href="https://commons.wikimedia.org/wiki/File:Boy_and_roundhead-propaganda_pamphlet_1643.png"
-                    target="_blank">Original
-                    image</a>, png, 500x306</figcaption>
-            <img id="civilwar-edited" src="images/civil war propaganda/CW propaganda edited.png" />
-            <figcaption>Edited image, png, 576x324</figcaption>
+            <div class="image-box">
+                <h1>Image 3</h1>
+                <img id="civilwar-original"
+                    src="images/civil war propaganda/Boy_and_roundhead-propaganda_pamphlet_1643.png" />
+                <figcaption><a
+                        href="https://commons.wikimedia.org/wiki/File:Boy_and_roundhead-propaganda_pamphlet_1643.png"
+                        target="_blank">Original
+                        image</a>, png, 500x306</figcaption>
+                <img id="civilwar-edited" src="images/civil war propaganda/CW propaganda edited.png" />
+                <figcaption>Edited image, png, 576x324</figcaption>
+            </div>
             <p>This is an image of some English civil war-era propaganda. It was sourced as a 500x306 png. Its intended
                 use was in a content box, as with image 2. When enlarging the original image, there is some blurring and
                 pixelation on the lines, and there is also what looks like a faint watermark across the centre of the
@@ -108,32 +115,46 @@
                 image and resized to 576x324 for use on the site.</p>
         </section>
         <section id="image4">
-            <h1>Image 4</h1>
-            <img id="histories-original"
-                src="images/histories & novels/Histories & Novels by Early Novels Database on Flickr.jpg" />
-            <figcaption><a
-                    href="https://www.flickr.com/photos/97741188@N04/14652963694/in/photolist-e1Cc5W-mvgqu1-6ftRdE-LWWbQX-ojQgE1-sHdp42-yQrqwA-ojQgB5-zMtf3r-yQAgXn-yQrquG-zuXB6P-zuRgGw-o3yahH-2gdqds7-8x82u6-yQAgZB-oyJYka-8wwNaS-y6faeR-ok2Ack-ojQh5E-QrTVVn-29WVqm1-gRJiRj-gRHPGR-gRHZ5Q-gRKb4c-gRK5f6"
-                    target="_blank">Original
-                    image</a> by Early Novels Database on Flickr, jpg, 3264x2448</figcaption>
-            <img id="histories-edited" src="images/histories & novels/Histories & Novels edited v1.jpg" />
-            <figcaption>First stage of editing before image trace, jpg, 1783x1003</figcaption>
-            <a href="images/histories & novels/Histories & Novels edited v1.jpg" target="_blank">Open full-size (new
-                tab)</a><br>
-            <img id="histories-edited" src="images/histories & novels/Histories & Novels edited v2.png" />
-            <figcaption>Edited image, png, 1783x1003</figcaption>
-            <a href="images/histories & novels/Histories & Novels edited v2.png" target="_blank">Open full-size (new
-                tab)</a>
+            <div class="image-box">
+                <h1>Image 4</h1>
+                <img id="histories-original"
+                    src="images/histories & novels/Histories & Novels by Early Novels Database on Flickr.jpg" />
+                <figcaption><a
+                        href="https://www.flickr.com/photos/97741188@N04/14652963694/in/photolist-e1Cc5W-mvgqu1-6ftRdE-LWWbQX-ojQgE1-sHdp42-yQrqwA-ojQgB5-zMtf3r-yQAgXn-yQrquG-zuXB6P-zuRgGw-o3yahH-2gdqds7-8x82u6-yQAgZB-oyJYka-8wwNaS-y6faeR-ok2Ack-ojQh5E-QrTVVn-29WVqm1-gRJiRj-gRHPGR-gRHZ5Q-gRKb4c-gRK5f6"
+                        target="_blank">Original
+                        image</a> by Early Novels Database on Flickr, jpg, 3264x2448</figcaption>
+                <img id="histories-edited" src="images/histories & novels/Histories & Novels edited v1.jpg" />
+                <figcaption>First stage of editing before image trace, jpg, 1783x1003</figcaption>
+                <a href="images/histories & novels/Histories & Novels edited v1.jpg" target="_blank">Open full-size (new
+                    tab)</a><br>
+                <img id="histories-edited" src="images/histories & novels/Histories & Novels edited v2.png" />
+                <figcaption>Edited image, png, 1783x1003</figcaption>
+                <a href="images/histories & novels/Histories & Novels edited v2.png" target="_blank">Open full-size (new
+                    tab)</a>
+            </div>
+            <p>This image was originally a photo of the cover of Aphra Behn’s published works. I liked the wording and
+                wanted to use it, but in a stylised form. I edited the image in Photoshop and then Illustrator to
+                achieve the effects I wanted. Initially I cropped the image to only contain the title text, and
+                straightened it. I then raised the contrast to 100 to sharpen the image. I slightly by reduced the
+                yellowed effect on the paper by making a colour adjustment, moving yellow 20 points to blue. I also used
+                the clone stamp to remove the stained marks on the paper. The intermediate image can be seen here.
+                I then used the Image Trace tool in Illustrator with the 3 Colours mode to create the cartoonish,
+                stylised effect. It was saved for web as a PNG-8 wth 4 colour setting - since the image trace had
+                reduced it to three colours, there was no loss of quality.
+            </p>
         </section>
         <section id="image5">
-            <h1>Image 5</h1>
-            <div class="logo-white">
-                <img id="logo-white" src="images/logo/Aphra Behn & After logo white.svg" height="25%" width="25%">
+            <div class="image-box">
+                <h1>Image 5</h1>
+                <div class="logo-white">
+                    <img id="logo-white" src="images/logo/Aphra Behn & After logo white.svg" height="100%" width="100%"/>
+                </div>
+                <figcaption>Logo as svg in white</figcaption>
+                <img id="logo-black" src="images/logo/Aphra Behn & After logo black.svg" height="20%" width="20%"/>
+                <figcaption>Logo as svg in black</figcaption>
+                <img id="favicon" src="images/logo/AB favicon-16x16.png" />
+                <figcaption>Favicon, png, 16x16</figcaption>
             </div>
-            <figcaption>Logo as svg in white</figcaption>
-            <img id="logo-black" src="images/logo/Aphra Behn & After logo black.svg" height="25%" width="25%">
-            <figcaption>Logo as svg in black</figcaption>
-            <img id="favicon" src="images/logo/AB favicon-16x16.png" />
-            <figcaption>Favicon, png, 16x16</figcaption>
             <p>This is a logo for the whole project, designed to be used as a splash loading page on the website, and in
                 other locations as needed. I created it in Illustrator. The typeface used is IM Fell Double Pica and IM
                 Fell Double Pica SC, in keeping with the choice made for the website. To create the very specific layout
@@ -142,6 +163,7 @@
                 the website with a monogram “AB" using the same sheared A. </p>
         </section>
         <section id="image6">
+            <div class="image-box">
             <h1>Image 6</h1>
             <img id="scratched-original" src="images/beale portrait/Aphra_Behn_by_Mary_Beale_E.jpg" />
             <figcaption><a href="https://commons.wikimedia.org/wiki/File:Aphra_Behn_by_Mary_Beale_E.jpg"
@@ -149,6 +171,7 @@
                     image</a>, jpg, 400x320</figcaption>
             <img id="scratched-edited" src="images/beale portrait/Aphra-scratched-face-with-text.png" />
             <figcaption>Edited image, png, 400x320</figcaption>
+            </div>
             <p>This image was inspired by a quote from Germaine Greer talking about how we know almost nothing about
                 Aphra Behn’s private life. She described her as “a palimpsest; she has scratched herself out." This
                 conveyed a very powerful visual image to me, so I created this image in Photoshop to reflect it. The
