@@ -35,6 +35,9 @@ a:active {
     background-color: grey;
 }
 
+img {
+    margin: 10px 0px 10px 0px;
+}
 
 .logo-white {
     background-color: #16161D
@@ -50,6 +53,11 @@ footer {
 	right: 0; 
     bottom: 0;
     margin: 10px;
+}
+
+#lely-original, #lely-edited, #grave-original, #histories-original, #histories-edited {
+    height: 50%;
+    width: 50%;
 }
 
 #black-background {
