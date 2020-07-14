@@ -24,8 +24,6 @@ h1, nav {
 
 .submenu, section, footer {
     font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
-    font-size: .75em;
 }
 
 a {
@@ -42,9 +40,6 @@ a:active {
     background-color: grey;
 }
 
-footer, .download {
-    font-size: 0.5em;
-}
 
 .logo-white {
     background-color: #16161D
